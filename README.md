@@ -37,21 +37,35 @@
 ## 프로젝트 구조
 
 ```
-밥먹자/
-├── index.html       # 홈 페이지
-├── login.html       # 로그인
-├── register.html    # 회원가입
-├── list.html        # 식사 기록 리스트
-├── detail.html      # 상세 보기
-├── write.html       # 글쓰기
-├── js/
-│   ├── auth.js      # 로그인/회원가입 로직
-│   ├── post.js      # 게시글 CRUD
-│   ├── storage.js   # localStorage 유틸
-├── css/
-│   └── style.css    # 공통 스타일
-└── assets/
-    └── ...          # 이미지 및 기타 리소스
+BabMeockJa_PROJECT/
+├── public/
+│   ├── css
+│   ├── font
+│   ├── img
+│   └── js
+│       ├── auth             # 로그인/회원가입 로직
+│       ├── json             # user.json 등 테스트용 데이터
+│       ├── services
+│       │   ├── mainBoard    # 메인 게시판 관련 JS
+│       │   ├── userBoard    # 식사 기록 CRUD 관련 JS
+│       │   ├── userProfile  # 마이페이지, 유저 수정 등 관련 JS
+│       └── utils            # 색상 바꾸기 등 공통 유틸
+│
+├── userBoard/
+│   ├── create.html          # 글쓰기
+│   ├── list.html            # 식사 기록 리스트
+│   ├── modify.html          # 식사 기록 수정
+│   └── view.html            # 식사 기록 상세 보기
+│
+├── userProfile/
+│   ├── modify.html          # 내 정보 수정
+│   ├── mypage.html          # 마이페이지
+│   └── view.html            # 내 정보 상세 보기
+│
+├── index.html               # 로그인
+└── login.html                # 홈 페이지
+
+
 ```
 
 ---

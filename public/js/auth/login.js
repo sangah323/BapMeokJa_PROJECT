@@ -58,7 +58,7 @@ const userLogin = (e) => {
         phoneNumber: users[i].phoneNumber,
       };
       localStorage.setItem("user", JSON.stringify(user));
-      location.href = "./main.html";
+      location.href = "./index.html";
       return;
     } else {
       passwordError.innerHTML = "이메일 또는 비밀번호가 잘못되었습니다.";

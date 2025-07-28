@@ -24,7 +24,7 @@ if (user) {
 }
 
 goLogin.addEventListener("click", (e) => {
-  loginChange("../login.html", "../main.html");
+  loginChange("../login.html", "../index.html");
 });
 
 // goLogin.addEventListener("click", () => {
@@ -32,7 +32,7 @@ goLogin.addEventListener("click", (e) => {
 //   if (user.email) {
 //     if (logout) {
 //       localStorage.removeItem("user");
-//       location.href = "./main.html";
+//       location.href = "./index.html";
 //     }
 //   }
 // });

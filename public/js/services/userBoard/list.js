@@ -12,7 +12,7 @@ goLogin.addEventListener("click", () => {
   if (user.email) {
     if (logout) {
       localStorage.removeItem("user");
-      location.href = "./main.html";
+      location.href = "./index.html";
     }
   }
 });

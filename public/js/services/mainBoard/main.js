@@ -4,7 +4,7 @@ const goMypage = document.querySelector(".go-mypage");
 const myPage = document.querySelector(".go-mypage > a");
 
 goLogin.addEventListener("click", (e) => {
-  loginChange("./login.html", "./main.html");
+  loginChange("./login.html", "./index.html");
 });
 
 goMypage.addEventListener("click", (e) => {
