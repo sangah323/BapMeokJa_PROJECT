@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Moneygraphy-Rounded";
+}
+
+#header {
+  height: 150px;
+}
+
+#header > .header-inner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: white;
+  box-shadow: 0 0 10px rgb(252, 247, 244);
+}
+
+#header > .header-inner > .header-top {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header > .header-inner > .header-top > h1 {
+  font-weight: 400;
+}
+
+#header > .header-inner > .header-top > h1 > a {
+  text-decoration: none;
+  font-size: 70px;
+  color: rgb(248, 116, 59);
+}
+
+#header > .header-inner > .header-top > .slice {
+  color: lightgray;
+}
+
+#header > .header-inner > .header-top > div {
+  display: flex;
+  gap: 20px;
+}
+
+#header > .header-inner > .header-top > div > p {
+  cursor: pointer;
+}
+
+#header > .header-inner > .header-top > div > img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+#header > .header-inner > .header-top > div > button {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+/*  */
+#content > #diaryInner {
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#content > #diaryInner > #modifyTitle {
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  font-size: 35px;
+}
+
+#content > #diaryInner > #modifyContent {
+  height: 50vh;
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  font-size: 35px;
+}
+
+#content > #diaryInner > button {
+  width: 120px;
+  height: 40px;
+  margin: 50px auto;
+  border: none;
+  border-radius: 5px;
+  background: rgb(248, 116, 59);
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}

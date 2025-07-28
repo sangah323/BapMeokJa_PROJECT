@@ -1,0 +1,136 @@
+#footer {
+  background: rgb(252, 247, 244);
+}
+
+#footer > .footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#footer > .footer-inner > .customer-service {
+  border-bottom: 1px solid lightgray;
+  padding-top: 40px;
+}
+
+#footer > .footer-inner > .customer-service > .tel {
+  font-size: 20px;
+}
+
+#footer > .footer-inner > .customer-service > .tel > a {
+  text-decoration: none;
+  color: black;
+}
+
+#footer > .footer-inner > .customer-service > .customer-service-time {
+  margin: 10px 0;
+}
+
+#footer > .footer-inner > .customer-service > .service-btn {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#footer > .footer-inner > .customer-service > .service-btn > button {
+  width: 90px;
+  height: 30px;
+  background: rgb(248, 116, 59);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+#footer > .footer-inner > .customer-service > .sns-box {
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 35px;
+}
+
+#footer > .footer-inner > .customer-service > .sns-box > a {
+  text-decoration: none;
+}
+
+#footer > .footer-inner > .customer-service > .sns-box > a > img {
+  width: 30px;
+  height: 30px;
+}
+
+#footer > .footer-inner > .footer-menu {
+  padding: 20px 0;
+  display: flex;
+  gap: 80px;
+  border-bottom: 1px solid lightgray;
+}
+
+#footer > .footer-inner > .footer-menu > ul,
+#footer > .footer-inner > .footer-menu > ul > a {
+  color: black;
+
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#footer > .footer-inner > .footer-menu > ul > li,
+#footer > .footer-inner > .footer-menu > ul > li > a {
+  padding-top: 10px;
+  list-style: none;
+  font-size: 14px;
+  color: gray;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#footer > .footer-inner > .business-title {
+  padding: 20px 0;
+}
+
+#footer > .footer-inner > .business-title > div:nth-of-type(1) {
+  display: flex;
+  gap: 80px;
+  color: gray;
+}
+
+#footer > .footer-inner > .business-title > div:nth-of-type(1) > p {
+  cursor: pointer;
+}
+
+#footer
+  > .footer-inner
+  > .business-title
+  > div:nth-of-type(1)
+  > p:nth-of-type(1) {
+  color: black;
+}
+
+#footer > .footer-inner > .business-title > .copyright {
+  padding: 40px 0;
+  width: 80%;
+}
+
+#footer > .footer-inner > .business-title > .copyright > p {
+  display: inline-block;
+  margin: 3px 0;
+  margin-right: 30px;
+  font-size: 14px;
+  color: gray;
+}
+
+#footer > .footer-inner > .business-title > .notice-box {
+  padding-bottom: 40px;
+  color: lightgray;
+  font-size: 13px;
+}
+
+#footer > .footer-inner > .business-title > .notice-box > div {
+  display: flex;
+  padding-top: 20px;
+}
+
+#footer > .footer-inner > .business-title > .notice-box > div > p {
+  margin-left: auto;
+}

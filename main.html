@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project - main</title>
+    <link href="./public/css/layout/font.css" rel="stylesheet">
+    <link href="./public/css/layout/header.css" rel="stylesheet" />
+    <link href="./public/css/layout/content.css" rel="stylesheet" />
+    <link href="./public/css/layout/sideBar.css" rel="stylesheet" />
+    <link href="./public/css/layout/footer.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="header-inner">
+        <div class="header-top">
+          <h1>
+            <a href="./main.html">밥먹자</a>
+          </h1>
+          <ul class="header-top-list">
+            <li class="go-mypage">
+              <a href="./userProfile/mypage.html">마이페이지</a>
+            </li>
+            <li>|</li>
+            <li>관심</li>
+            <li>|</li>
+            <li class="go-login">
+              <a>로그인</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-nav">
+          <a>집밥</a>
+          <a>장보기</a>
+          <a>오늘 뭐 먹지</a>
+          <a href="./userBoard/list.html">집밥일기</a>
+        </div>
+      </div>
+    </div>
+    <div id="content">
+      <div class="content-inner">
+        <div class="bab-box">
+          <h2>집밥</h2>
+          <div>
+            <div>
+              <p>배달 말고</p>
+              <p>건강한 <span class="color-change">집밥</span> 먹자</p>
+            </div>
+            <img src="./public/img/main-jipbab-img.png" alt="집밥 이미지">
+          </div>
+          <button>
+            <p>집밥 전체보기</p>
+            <p>></p>
+          </button>
+        </div>
+        <div class="mart-box">
+          <h2>장보기</h2>
+          <div>
+            <div>
+              <p>전상품 무료배송</p>
+              <p><span class="color-change">장보기 특가</span></p>
+              <p>단 하루! 쿠폰 받기</p>
+            </div>
+            <img src="./public/img/main-shopping-img.png" alt="장바구니 이미지">
+          </div>
+          <button>
+            <p>장보기 전체보기</p>
+            <p>></p>
+          </button>
+        </div>
+        <div class="recommend-box">
+          <h2>오늘 뭐 먹지</h2>
+          <div>
+            <div>
+              <p>뭐 먹을지 <span class="color-change">고민</span>될 때</p>
+              <p>반찬부터 메인까지 <span class="color-change">식단 추천</span></p>
+            </div>
+            <img src="./public/img/main-recommend-img.JPG" alt="메뉴 추천 이미지">
+          </div>
+          <button>
+            <p>오늘 뭐 먹지 전체보기</p>
+            <p>></p>
+          </button>
+        </div>
+        <div class="diary-box">
+          <h2>집밥일기</h2>
+          <div>
+            <div>
+              <p>오늘 먹은 <span class="color-change">집밥</span>을</p>
+              <p><span class="color-change">기록</span>해주세요</p>
+            </div>
+            <img src="./public/img/main-diary-img.png">
+          </div>
+          <button onclick="location.href='./userBoard/list.html'">
+              <p>집밥일기 전체보기</p>
+              <p>></p>
+            </button>
+        </div>
+      </div>
+    </div>
+    <div id="sideBar">
+      <div class="sideBar-circle">
+        <a href="#">
+          <p>△</p>
+          <p>TOP</p>
+        </a>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="footer-inner">
+        <div class="customer-service">
+          <div class="tel">
+            <span>고객센터</span>
+            <a href="tel:1234-5678">1234-5678</a>
+          </div>
+          <div class="customer-service-time">운영시간 평일 09:00 - 18:00 (토·일, 공휴일 휴무)</div>
+          <div class="service-btn">
+            <button>FAQ</button>
+            <button>1:1 문의</button>
+          </div>
+          <div class="sns-box">
+            <a href="https://play.google.com/store/apps/">
+              <img src="./public/img/google-app-store-img.png" alt="구글 앱스토어 아이콘">
+            </a>
+            <a href="https://www.apple.com/kr/app-store/">
+              <img src="./public/img/apple-app-store-img.png" alt="애플 앱스토어 아이콘">
+            </a>
+            <a href="https://www.instagram.com/">
+              <img src="./public/img/instagram-img.png" alt="인스타그램 아이콘">
+            </a>
+            <a href="https://www.youtube.com/">
+              <img src="./public/img/youtube-img.png" alt="유튜브 아이콘">
+            </a>
+          </div>
+        </div>
+        <div class="footer-menu">
+          <ul>
+            회사소개
+            <li>밥먹자 소개</li>
+            <li>인재채용</li>
+          </ul>
+          <ul>
+            메뉴
+            <li>집밥</li>
+            <li>장보기</li>
+            <li>오늘 뭐 먹지</li>
+            <li>
+              <a href="./userBoard/list.html">집밥 일기</a>
+            </li>
+          </ul>
+          <ul>
+            <a href="./userProfile/mypage.html">마이페이지</a>
+            <li>
+              <a href="./userProfile/view.html">정보수정</a>
+            </li>
+            <li>회원등급</li>
+            <li>쿠폰</li>
+          </ul>
+          <ul>
+            고객지원 센터
+            <li>공지사항</li>
+            <li>1:1 문의</li>
+            <li>고객의 소리</li>
+          </ul>
+        </div>
+        <div class="business-title">
+          <div>
+            <p>개인정보처리방침</p>
+            <p>이용약관</p>
+            <p>제휴제안</p>
+          </div>
+          <div class="copyright">
+              <p>(주)밥먹자 · 대표 조상아</p>
+              <p>사업자 등록번호 : 123-45-67891</p>
+              <p>통신판매업 제 2024-서울송파-1205호</p>
+              <p>사업장 소재지 : 서울특별시 송파구 풍납동</p>
+              <p>전화번호 : 1234 - 5678</p>
+              <p>이메일 : customer@babmukja.co.kr</p>
+          </div>
+          <div class="notice-box">
+            <p>
+              일부 상품의 경우 밥먹자는 통신판매의 당사자가 아닌
+              통신판매중개자로서 상품, 상품정보, 거래에 대한 책임이 제한될 수
+              있으므로,</br> 각 상품 페이지에서 구체적인 내용을 확인하시기 바랍니다.
+            </p>
+            <div>
+              <p>Copyright 2024. babmukja, Co., Ltd. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./public/js/auth/loginCheck.js"></script>
+    <script src="./public/js/auth/loginChange.js"></script>
+    <script src="./public/js/services/mainBoard/main.js"></script>
+  </body>
+</html>

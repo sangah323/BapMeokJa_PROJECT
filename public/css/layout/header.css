@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Moneygraphy-Rounded";
+}
+
+#header {
+  height: 250px;
+}
+
+#header > .header-inner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-bottom: 20px;
+  background: white;
+  box-shadow: 0 0 20px rgb(252, 247, 244);
+}
+
+#header > .header-inner > .header-top {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header > .header-inner > .header-top > h1 > a {
+  text-decoration: none;
+  font-size: 70px;
+  font-weight: 500;
+  color: rgb(248, 116, 59);
+}
+
+#header > .header-inner > .header-top > .header-top-list {
+  display: flex;
+  gap: 50px;
+}
+
+#header > .header-inner > .header-top > .header-top-list > li {
+  list-style: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#header > .header-inner > .header-top > .header-top-list > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+#header > .header-inner > .header-top > .header-top-list > li:nth-of-type(2),
+#header > .header-inner > .header-top > .header-top-list > li:nth-of-type(4) {
+  color: lightgray;
+}
+
+#header > .header-inner > .header-nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 80px;
+}
+
+#header > .header-inner > .header-nav > a {
+  font-size: 28px;
+  font-weight: 540;
+  text-decoration: none;
+  color: black;
+}

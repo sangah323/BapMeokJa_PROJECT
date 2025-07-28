@@ -1,0 +1,26 @@
+#sideBar {
+  position: fixed;
+  bottom: 5%;
+  right: 10%;
+}
+
+#sideBar > .sideBar-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: rgb(248, 116, 59);
+}
+
+#sideBar > .sideBar-circle > a {
+  text-align: center;
+  text-decoration: none;
+}
+
+#sideBar > .sideBar-circle > a > p {
+  font-weight: 700;
+  color: white;
+}

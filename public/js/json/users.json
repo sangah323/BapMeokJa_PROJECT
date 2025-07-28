@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "email": "whtkddk@gmail.com",
+      "password": "1234",
+      "name": "조상아",
+      "address": "인천광역시 연수구 어쩌구 3동 505호",
+      "phoneNumber": "010-1234-5678"
+    },
+    {
+      "email": "wnqudgus@gmail.com",
+      "password": "1234",
+      "name": "주병현",
+      "address": "서울특별시 홍길동 아파트 1동 105호",
+      "phoneNumber": "010-1234-5678"
+    }
+  ]
+}

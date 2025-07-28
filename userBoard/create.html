@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project - userBoard - create</title>
+    <link href="../public/css/layout/font.css" rel="stylesheet" />
+    <link href="../public/css/userBoard/create.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="header-inner">
+        <div class="header-top">
+          <h1>
+            <a href="../main.html">밥먹자</a>
+          </h1>
+          <div>
+            <img src="../public/img/insert-photo-img.jpg" />
+            <p>본문2</p>
+            <p>기본서체</p>
+          </div>
+          <div class="slice">|</div>
+          <div>
+            <p>B</p>
+            <p>I</p>
+            <p>U</p>
+            <p>T</p>
+            <p>T</p>
+            <p>T</p>
+          </div>
+          <div class="slice">|</div>
+          <div>
+            <img src="../public/img/align-img.JPG" />
+            <img src="../public/img/align-left-img.PNG" />
+            <img src="../public/img/align-center-img.PNG" />
+            <img src="../public/img/align-right-img.PNG" />
+          </div>
+          <div class="slice">|</div>
+          <div>
+            <button>기본모드</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="content">
+      <form id="diaryInner" action="./list.html">
+        <input type="text" placeholder="제목" name="title" />
+        <div class="title-error"></div>
+        <input type="text" placeholder="내용" name="content" />
+        <div class="content-error"></div>
+        <button type="submit">일기 등록</button>
+      </form>
+    </div>
+
+    <script src="../public/js/services/userBoard/create.js"></script>
+  </body>
+</html>

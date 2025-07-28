@@ -1,0 +1,94 @@
+#content > #loginArea {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#content > #loginArea > h1 {
+  font-size: 50px;
+  font-weight: 400;
+  color: rgb(248, 116, 59);
+  margin: 30px 0;
+}
+
+#content > #loginArea > #loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+#content > #loginArea > #loginForm > h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#content > #loginArea > #loginForm > input {
+  padding: 10px 70px;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid gray;
+  background: transparent;
+}
+
+#content > #loginArea > #loginForm > button {
+  margin-top: 25px;
+  height: 35px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(248, 116, 59);
+  color: white;
+  cursor: pointer;
+}
+
+#content > #loginArea > #loginForm > .email-error,
+#content > #loginArea > #loginForm > .password-error {
+  color: red;
+}
+
+#content > #loginArea > ul {
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+
+#content > #loginArea > ul > li {
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+#content > #loginArea > ul > li:nth-of-type(2),
+#content > #loginArea > ul > li:nth-of-type(4) {
+  color: lightgray;
+}
+
+#content > #loginArea > button {
+  display: flex;
+  align-items: center;
+  gap: 110px;
+  margin-top: 10px;
+  width: 36%;
+  height: 50px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+}
+
+#content > #loginArea > button > img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+#content > #loginArea > button > p {
+  font-size: 16px;
+}
